@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border: 1px solid lightgray;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.8em;
+    color: gray;
+}
+
+/*  SECTION recipe-intro */
+
+.recipe-intro {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-intro img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 600px; /*   altura maxima  */
+    object-fit: cover; /*   corte da imagem  */
+}
+
+.recipe-intro h1 {
+    position: absolute;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+/* SECTION STORY */
+
+.story {
+    margin: 5%;
+    text-align: center;
+}
+
+.story p {
+    padding: 0 10%;
+}
+
+.story img {
+    margin: 5% 0 2% 0;
+}
+
+.ingredients {
+    margin: 5%;
+    text-align: center;
+}
+
+.ingredients h3 {
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.ingredients ul {
+    list-style: none;
+    text-align: left;
+}
+
+.ingredients li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 1.5em;
+    color: gray;
+}
+
+.ingredients img {
+    margin: 5% 0 2% 0;
+}
+
+/* SECTION STEPS */
+
+.steps {
+    text-align: left;
+}
+
+.steps h3{
+    margin: 5% 0 3% 0;
+}
+
+.steps li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 1.5em;
+}
